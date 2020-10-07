@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src="https://portalfast.ite.mypepsico.com/ep/common/portal/unprotected/dev/pwa/logo.svg" className="App-logo" alt="logo" />
                 <p>
                     Hello, I am running on <code>AWS Cloud!</code>
                 </p>
