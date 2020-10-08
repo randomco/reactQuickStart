@@ -4,10 +4,10 @@ import './App.css';
 //import Car from './Car';
 import RecipeReviewCard from './RecipeReviewCard';
 
-function App() {
+function App({config, data}) {
     return (
         <div className="App">
-            <header className="App-header">
+            <header className="App-header" style={{backgroundColor: config.color}}>
                 <img src="https://portalfast.ite.mypepsico.com/ep/common/portal/unprotected/dev/pwa/logo.svg" className="App-logo" alt="logo" />
                 <p>
                     Hello, I am a &nbsp;
@@ -22,7 +22,7 @@ function App() {
                     &nbsp; Widget running on <br/>
                     <code>~ AWS Cloud! ~</code>
                 </p>
-                <RecipeReviewCard/>
+                <RecipeReviewCard data={data} config={config}/>
             </header>
         </div>
     );
