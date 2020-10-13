@@ -1,14 +1,13 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-//import Car from './Car';
 import RecipeReviewCard from './RecipeReviewCard';
 
 function App({config, data}) {
     return (
         <div className="App">
             <header className="App-header" style={{backgroundColor: config.color}}>
-                <img src="https://portalfast.ite.mypepsico.com/ep/common/portal/unprotected/dev/pwa/logo.svg" className="App-logo" alt="logo" />
+                <img src="https://svgshare.com/i/QWP.svg" className="App-logo" alt="logo" />
                 <p>
                     Hello, I am a &nbsp;
                     <a
